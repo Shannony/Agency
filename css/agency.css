@@ -152,7 +152,9 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, cursive; 
+  
+
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -226,7 +228,8 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjSw7XZsOTNAhUO3mMKHZjuDyEQjRwIBw&url=http%3A%2F%2Fmichaelminn.net%2Fnewyork%2Fparks%2Fcentral_park%2F&psig=AFQjCNHFcFkpH5j1iDk0-P1bpQukhvaDLw&ust=1468084928884925);
+
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
