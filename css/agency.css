@@ -34,7 +34,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #e6ffff;
 }
 h1,
 h2,
@@ -55,22 +55,25 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+/*
 .btn-primary {
   color: white;
-  background-color: #e6ffff;
-  border-color: #e6ffff;
+  background-color: blue;
+  border-color: blue;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
+
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #e6ffff;
+  border-color: #e6ffff;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -116,8 +119,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #e6ffff;
+  border-color: #e6ffff;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -146,6 +149,7 @@ fieldset[disabled] .btn-xl.active {
   color: #e6ffff;
   background-color: white;
 }
+*/
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
