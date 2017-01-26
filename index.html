@@ -26,7 +26,9 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhbm5vbnlhbiIsImEiOiJlMzQ0YzRlZDM0ZGUyYmUyN
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
-    center: [-77.05, 38.907],
+    //center: [-77.05, 38.907],
+    center: [-122.323, 37.798],
+
     zoom: 11.15
 });
 
@@ -43,22 +45,22 @@ map.on('load', function () {
                 "features": [{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong> Washington D.C. Food Bank! </strong><p><a href=\"https://www.capitalareafoodbank.org/\" target=\"_blank\" title=\"Opens in a new window\">Washington D.C.Food Bank</a> need volunteers to sort food this Friday. <br> When: Jan 27th <br> Time: 3:00 pm <br>  </p>",
+                        "description": "<strong> Alameda Food Bank! </strong><p><a href=\"https://www.capitalareafoodbank.org/\" target=\"_blank\" title=\"Opens in a new window\">Alameda Food Bank</a> need volunteers to sort food this Friday. <br> When: Jan 27th <br> Time: 3:00 pm <br>  </p>",
                         "icon": "star"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-77.038659, 38.931567]
+                        "coordinates": [-122.274417, 37.779356] 
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Mad Men Season Five Finale Watch Party</strong><p>Head to Lounge 201 (201 Massachusetts Avenue NE) Sunday for a <a href=\"http://madmens5finale.eventbrite.com/\" target=\"_blank\" title=\"Opens in a new window\">Mad Men Season Five Finale Watch Party</a>, complete with 60s costume contest, Mad Men trivia, and retro food and drink. 8:00-11:00 p.m. $10 general admission, $20 admission and two hour open bar.</p>",
+                        "description": "<strong> SF Women's Shelter</strong><p> SF Women's Shelter  need 5 volunteers to baby sit children. <br> When: Jan 29th <br> Time: 3:00 pm <br> </p>",
                         "icon": "star"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-77.003168, 38.894651]
+                        "coordinates": [-122.422673, 37.761149]  
                     }
                 }, {
                     "type": "Feature",
@@ -68,7 +70,7 @@ map.on('load', function () {
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-77.090372, 38.881189]
+                        "coordinates": [-122.234959, 37.822611]  
                     }
                 }, {
                     "type": "Feature",
@@ -78,17 +80,17 @@ map.on('load', function () {
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-77.111561, 38.882342]
+                        "coordinates": [-122.271778, 37.867040] 
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Seersucker Bike Ride and Social</strong><p>Feeling dandy? Get fancy, grab your bike, and take part in this year's <a href=\"http://dandiesandquaintrelles.com/2012/04/the-seersucker-social-is-set-for-june-9th-save-the-date-and-start-planning-your-look/\" target=\"_blank\" title=\"Opens in a new window\">Seersucker Social</a> bike ride from Dandies and Quaintrelles. After the ride enjoy a lawn party at Hillwood with jazz, cocktails, paper hat-making, and more. 11:00-7:00 p.m.</p>",
-                        "icon": "bicycle"
+                        "icon": "star"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-77.052477, 38.943951]
+                        "coordinates": [-122.242263, 37.791561]
                     }
                 }, {
                     "type": "Feature",
